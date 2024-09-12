@@ -5,7 +5,7 @@ String choice1 = Console.ReadLine();
 if (choice1 == "1")
 {
     Console.Clear();
-    Console.WriteLine("You scavenge the plane but find that it has mostly been ransacked already. after looking thorugh the place you eventually find canned 1. tomato soup, 2. a parachute and 3. Flare gun.");
+    Console.WriteLine("You scavenge the plane but find that it has mostly been ransacked already. after looking through the place you eventually find 1. canned tomato soup, 2. a parachute 3. Flare gun.");
 string choice11 = Console.ReadLine();
     if (choice11 == "1")
     {
@@ -31,9 +31,38 @@ string choice11 = Console.ReadLine();
     else if (choice11 == "2")
     {
         Console.Clear();
-        Console.WriteLine("You walk deeper and get rick rolled :D");
+        Console.WriteLine("You put on the parachute and climb to the peak of the mountain on the edge of the island. You stand above the water and take a leap. In the air, you attempt to pull the parachute out, nothing happens. you fall to your death. turns out it was just a regular backpack :D");
+        string end3 = Console.ReadLine();
+        if (end3 == "thas homophobic")
+        {
+            Console.Clear();
+            Console.WriteLine("my bitch is gay... also game over.");
+        }
+        else
+        {
+            Console.Clear();
+            Console.WriteLine("Game Over.");
+        }
+        }
+        else if (choice11 == "3")
+        {
+            Console.Clear();
+        Console.WriteLine("You flare gun and look at its stats in your inventory. Turns out it has lvl 999 knockback enchantment. you shoot the gun att a 45° towards the ground and get knocked back so far that you land in a resturant in China and eat super good Chinese food :D");
+        string goodending = Console.ReadLine();
+        if (goodending == "Type shi")
+        {
+        Console.Clear();
+        Console.WriteLine("Wait who's that? It's an asian baddie!");
+        Console.WriteLine("You rizz her up and get challenged to a fight with her grandpa in spinjitzu to prove your worthyness");
+        Console.WriteLine("You won and now can live happily ever after with your wife :D");
+        }
+        else
+        {
+        Console.Clear();
+        Console.WriteLine("the end");
+        }
+        }
     }
-}
 else if (choice1 == "2")
 {
     Console.Clear();
@@ -52,7 +81,7 @@ else if (choice1 == "2")
 }
 else
 {
-    Console.WriteLine("Error, terminating IDF.exe");
+    Console.WriteLine("Error, terminating FBI spyware.exe");
     Console.ReadLine();
     return;
 }
